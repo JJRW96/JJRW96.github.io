@@ -1,6 +1,9 @@
 ---
+<<<<<<< HEAD
+=======
 title: "JJRW96.github.io"
 author: "JJRW"
+>>>>>>> 05c0c7f8e2cc4e7baa4c41ff161fad54de14fadd
 format: 
   dashboard:
     expandable: true
@@ -12,7 +15,11 @@ theme:
 
 
 ```{r}
+<<<<<<< HEAD
+
+=======
 # Library und dfs laden
+>>>>>>> 05c0c7f8e2cc4e7baa4c41ff161fad54de14fadd
 library(plotly)
 library(ggplot2)
 library(dplyr)
@@ -53,7 +60,11 @@ df_anthropometrisch_female <- readRDS ("C:/Users/johan/OneDrive/Desktop/SpoWi/WS
 df_anthropometrisch_male <- readRDS ("C:/Users/johan/OneDrive/Desktop/SpoWi/WS 22,23/Masterarbeit - Wirkungsgrad/Daten/Probanden_Energieberechnung/xlsm/df_anthropometrisch_male.rds")
 ```
 
+<<<<<<< HEAD
+
+=======
 # Informationen Studie
+>>>>>>> 05c0c7f8e2cc4e7baa4c41ff161fad54de14fadd
 ## Row {.flow height=30%}
 ::: card
 ::: card-header
@@ -111,6 +122,8 @@ datatable(Stichprobe_df)
 :::
 :::
 
+<<<<<<< HEAD
+=======
 # Wirkungsgrad
 
 ## Bar - und Boxplots {.tabset}
@@ -2786,3 +2799,4 @@ datatable(Efficiency_df, options = list(pageLength = 10))
 ```
 
 
+>>>>>>> 05c0c7f8e2cc4e7baa4c41ff161fad54de14fadd
